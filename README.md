@@ -1,16 +1,16 @@
-**GitHub Commit Alert – Installation Guide and Manual**
+**GitHub Code Repository Monitor Using PowerAutomate – Installation Guide and Manual**
 
-This utility is to get recurring alerts for GitHub repository's commits. There are times when one forgets to commit the code or skips it, in that case, this alert or reminder helps. This utility is developed on Power Automate.
+This utility provides recurring alerts for commits to a GitHub repository. It serves as a reminder for instances when a commit might be forgotten or overlooked, helping to ensure that code changes are consistently recorded. This utility is developed using Power Automate.
 
-**Why is Power Automate used?**
+**Why Use Power Automate?**
 
-As a company, we use office 365 applications and services for most of our communications. Power Automate is in office 365, hence, no third-party application is required. Power Automate offers over a thousand connectors and actions. We are using a few such as HTTP, to call Rest API of GitHub and Share point's action to Get Items from a list. It requires a Power Automate Premium license to use HTTP actions.
+Many companies rely on Office 365 applications and services for internal communication and collaboration. Power Automate, integrated within Office 365 Suite, eliminates the need for third-party applications. It offers over a thousand connectors and actions. For this utility, we utilize connectors such as HTTP to call GitHub's REST API and SharePoint actions to retrieve items from a list and MS Teams to communicate with programmers and stakeholders. Note that a Power Automate Premium license is required to use HTTP actions. 
 
-**How does the Scheduled Flow work to give alerts?**
+**How Does the Scheduled Flow Provide Alerts?**
 
-The Scheduled Flow is recurring flow in Power Automate, it can be scheduled at any time of the day or how many times a day too. The flow first gets the repository list from Share Point. Based on the repository names, it runs a loop to get the commits. The condition checks if there are no commits of today and posts a message in teams!
+The Scheduled Flow is a recurring flow in Power Automate that can be scheduled to run at any desired time or frequency throughout the day. The flow first retrieves the repository list from SharePoint. Based on the repository names, it then iterates through each to check for commits. If no commits are found for the day, it posts a message to MS Teams. 
 
-**How to install it on your machine?**
+**How to install this application?**
 
 **Pre-requisite:** Power Automate License
 
@@ -125,7 +125,8 @@ And in the Teams, which you mentioned you’d get alert like this:
 
 <img width="468" alt="Picture18" src="https://github.com/user-attachments/assets/2ddd08c2-2802-4061-a574-c5c49a91ebbc">
 
+Since the test was successful, you can now start using it daily.  
 
-As the test went successfully, you can now use it daily. Hope this makes your life easier!
+We trust this will streamline your workflow and make things easier for you! 
 
 **Ready to Transform your Business with Automation?** [**Get Started**](https://intelliconnectq.com/low-code-and-automation)
