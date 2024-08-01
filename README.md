@@ -1,18 +1,18 @@
-**GitHub Code Repository Monitor Using PowerAutomate – Installation Guide and Manual**
+# **GitHub Code Repository Monitor Using PowerAutomate – Installation Guide and Manual**
 
 This utility provides recurring alerts for commits to a GitHub repository. It serves as a reminder for instances when a commit might be forgotten or overlooked, helping to ensure that code changes are consistently recorded. This utility is developed using Power Automate.
 
-**Why Use Power Automate?**
+## **Why Use Power Automate?**
 
 Many companies rely on Office 365 applications and services for internal communication and collaboration. Power Automate, integrated within Office 365 Suite, eliminates the need for third-party applications. It offers over a thousand connectors and actions. For this utility, we utilize connectors such as HTTP to call GitHub's REST API and SharePoint actions to retrieve items from a list and MS Teams to communicate with programmers and stakeholders. Note that a Power Automate Premium license is required to use HTTP actions. 
 
-**How Does the Scheduled Flow Provide Alerts?**
+## **How Does the Scheduled Flow Provide Alerts?**
 
 The Scheduled Flow is a recurring flow in Power Automate that can be scheduled to run at any desired time or frequency throughout the day. The flow first retrieves the repository list from SharePoint. Based on the repository names, it then iterates through each to check for commits. If no commits are found for the day, it posts a message to MS Teams. 
 
-**How to install this application?**
+## **How to install this application?**
 
-**Pre-requisite:** Power Automate License
+### **Pre-requisite:** Power Automate License
 
 **Step 1**: Download the zip file.
 
@@ -107,7 +107,7 @@ You can change the recurring time in schedule action:
 
 Once you are done with customizing the flow, hit save and you are done! You will get alerts to the teams you named in Share Point at the time you selected in schedule action.
 
-**How to test the flow?**
+##  **How to test the flow?**
 
 Go to My Flows> Github Commits Alert> Edit.
 
