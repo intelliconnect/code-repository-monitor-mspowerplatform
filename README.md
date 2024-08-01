@@ -62,6 +62,8 @@ Add three fields like this and add your GitHub organizations and repositories an
 
 orgname, reponame, team and description
 
+Note: Every repository you are adding must have access from the account you will run the autoamte flow from. 
+
 <img width="468" alt="Picture9" src="https://github.com/user-attachments/assets/a1f0f1d0-cb2b-48d0-a435-deafbfcd57af">
 
 
