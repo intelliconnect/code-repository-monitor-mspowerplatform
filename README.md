@@ -37,7 +37,8 @@ Once you select the zip file, it will start importing.
 
 Click on _Select during import_ and select the connection or create one, it will take a few seconds.
 
-<img width="393" alt="Picture4" src="https://github.com/user-attachments/assets/c5a0f5c9-dc6a-44a3-bd54-246945cfa6a9">
+<img width="393" alt="Picture4" src="<img width="393" alt="Picture4" src="https://github.com/user-attachments/assets/2b30c638-ea25-43d8-a9a6-85c56a9aeff0">
+">
 
 Click on import once you have selected the connections. It will take a minute or two to import, don’t close the window.
 
